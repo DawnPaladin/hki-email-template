@@ -3,6 +3,16 @@
 
 @import 'template/template';
 
+// utilities
+.inline-block {
+  display: inline-block;
+}
+.bold {
+  font-weight: bold;
+}
+
+// body
+
 .header {
   background: url('../assets/img/marble-texture.png');
   padding: 7px;
@@ -40,5 +50,42 @@ div.inspection {
   }
   p:last-of-type {
     margin-bottom: 0;
+  }
+}
+
+.sidebar {
+  border-width: 4px 0;
+  border-color: #004677;
+  border-style: solid;
+  text-align: center;
+  .sidebar-row:nth-child(odd) {
+    background: #E3F0FA;
+  }
+  .sidebar-row {
+    padding: 10px 0;
+    p {
+      text-align: center;
+    }
+    a {
+      color: #336B92;
+    }
+    small {
+      color: black;
+    }
+  }
+}
+.catalog-link {
+  width: 130px;
+  display: inline-block;
+  img { margin-right: 7px; }
+}
+.feedback-link {
+  width: 180px;
+  display: inline-block;
+  font-size: 12px;
+  text-align: left;
+  img {
+    margin-right: 7px;
+    margin-top: 7px;
   }
 }
