@@ -1,0 +1,13 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+.header {
+  background: url('../assets/img/marble-texture.png');
+  padding: 7px;
+}
+.subject {
+  background: #E3F0FA;
+  font-weight: bold;
+}
