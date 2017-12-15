@@ -11,3 +11,34 @@
   background: #E3F0FA;
   font-weight: bold;
 }
+
+.your-order {
+  background: #C1D0E0;
+  padding: 5px;
+  .title {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .contents {
+    background: white;
+    .img-cell {
+      width: 60px;
+    }
+    .text-cell {
+      padding: 5px;
+    }
+  }
+}
+
+div.inspection {
+  background: #FFF4D4;
+  padding: 10px;
+  p {
+    font-size: 14px;
+  }
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+}
