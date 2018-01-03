@@ -61,13 +61,20 @@ div.inspection {
   border-width: 4px 0;
   border-color: #004677;
   border-style: solid;
-  text-align: center;
-  .sidebar-row:nth-child(odd) {
+  .callout:nth-child(odd) th.sidebar-row {
     background: #E3F0FA;
   }
-  .sidebar-row {
+  .callout {
+    margin-bottom: 0;
+    .callout-inner {
+      border: none;
+      text-align: center;
+    }
     p {
       text-align: center;
+    }
+    a.bold {
+      font-size: 15px;
     }
     small {
       color: black;
