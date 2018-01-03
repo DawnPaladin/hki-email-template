@@ -37,6 +37,9 @@ a:link, a:visited, a:hover, a:active {
   }
   .contents {
     background: white;
+    border-left: 8px solid #C1D0E0;
+    border-right: 8px solid #C1D0E0;
+    width: 100%;
     .img-cell {
       width: 60px;
     }
