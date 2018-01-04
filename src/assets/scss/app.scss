@@ -19,11 +19,17 @@ a:link, a:visited, a:hover, a:active {
 
 .header {
   background: linear-gradient(to bottom, #414347, #1E1C1F);
-  padding: 7px;
+  .wrapper-inner {
+    padding: 10px;
+  }
 }
 .subject {
   background: #E3F0FA;
   font-weight: bold;
+  .wrapper-inner {
+    padding: 3px;
+    font-weight: bold;
+  }
 }
 
 .your-order {
