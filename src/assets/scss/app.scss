@@ -67,9 +67,10 @@ div.inspection {
 }
 
 .sidebar {
-  border-width: 4px 0;
-  border-color: #004677;
-  border-style: solid;
+  border-top: 4px solid #004677;
+  border-bottom: 4px solid #004677;
+  border-left: none;
+  border-right: none;
   .callout:nth-child(odd) th.sidebar-row {
     background: #E3F0FA;
   }
