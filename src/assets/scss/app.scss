@@ -27,9 +27,13 @@ a:link, a:visited, a:hover, a:active {
   background: #E3F0FA;
   font-weight: bold;
   .wrapper-inner {
-    padding: 3px;
+    padding: 6px;
     font-weight: bold;
   }
+}
+
+.main-column p {
+  line-height: 1.6;
 }
 
 .your-order {
@@ -93,6 +97,7 @@ div.inspection {
 }
 .feedback-link {
   font-size: 12px;
+  line-height: 1.5;
 }
 
 .footer {
