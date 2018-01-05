@@ -13,7 +13,7 @@
 
 // body
 
-a:link, a:visited, a:hover, a:active {
+.main-column a, .sidebar a {
   color: #336B92;
 }
 
@@ -33,7 +33,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .main-column p {
-  line-height: 1.6;
+  line-height: 140%;
 }
 
 .your-order {
@@ -97,7 +97,7 @@ div.inspection {
 }
 .feedback-link {
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 140%;
 }
 
 .footer {
@@ -117,6 +117,7 @@ div.inspection {
 }
 .boilerplate, .boilerplate a {
   color: #666666;
+  line-height: 150%;
 }
 .boilerplate a {
   text-decoration: underline;
