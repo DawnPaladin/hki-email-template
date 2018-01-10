@@ -10,10 +10,15 @@
 .bold {
   font-weight: bold;
 }
+.fine-print {
+  font-size: .8em;
+  font-style: italic;
+  hyphens: manual;
+}
 
 // body
 
-.main-column a, .sidebar a {
+.main-column a, .sidebar a, .footer-table a {
   color: #336B92;
 }
 
@@ -121,4 +126,21 @@ div.inspection {
 }
 .boilerplate a {
   text-decoration: underline;
+}
+
+.footer-table {
+  background: #BACEE3;
+  width: 100%;
+}
+.text-and-image {
+  td {
+    font-size: .8em;
+  }
+  img {
+    height: 30px;
+    margin-right: 5px;
+  }
+  tr:nth-child(2)>td {
+    padding-bottom: 10px;
+  }
 }
