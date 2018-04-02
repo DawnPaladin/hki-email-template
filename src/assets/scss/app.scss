@@ -3,6 +3,10 @@
 
 @import 'template/template';
 
+table.container { // set global width
+  width: 650px;
+}
+
 // utilities
 .inline-block {
   display: inline-block;
