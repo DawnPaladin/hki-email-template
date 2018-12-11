@@ -23,15 +23,9 @@ table.container { // set global width
 // body
 
 .main-column a, .sidebar a, .footer-table a {
-  color: #336B92;
+  color: hsl(0, 0%, 10%);
 }
 
-.header {
-  background: linear-gradient(to bottom, #414347, #1E1C1F);
-  .wrapper-inner {
-    padding: 10px;
-  }
-}
 .subject {
   background: #E3F0FA;
   font-weight: bold;
@@ -110,14 +104,15 @@ div.inspection {
 }
 
 .footer {
-  background: #F3F3F3;
-  border-top: 8px solid #004677;
+  background: hsl(0, 0%, 80%);
+  border-top: 8px solid hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 20%);
   p {
     text-align: center;
   }
   .main-link {
     font-size: 22px;
-    color: #004677;
+    color: hsl(0, 0%, 20%);
     text-align: center;
   }
   .phone {
@@ -125,7 +120,7 @@ div.inspection {
   }
 }
 .boilerplate, .boilerplate a {
-  color: #666666;
+  color: hsl(0, 0%, 20%);
   line-height: 150%;
 }
 .boilerplate a {
